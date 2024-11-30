@@ -1,8 +1,7 @@
-//
-//  Bird.swift
-//  BirdInfoTVApp
-//
-//  Created by Anuththara Divarathna on 2024-11-30.
-//
-
 import Foundation
+
+struct Bird: Identifiable {
+    let id = UUID()
+    let name: String
+    let description: String
+}
